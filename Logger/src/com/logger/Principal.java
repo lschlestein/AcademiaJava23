@@ -40,7 +40,7 @@ public class Principal {
 
 		// Loga um evento no arquivo
 		for (int i = 0; i < 50; i++) {
-			logger.log(Level.CONFIG, "Teste logger " + i);
+			logger.log(Level.CONFIG, "Teste logger git " + i);
 			logger.log(Level.INFO, "Teste logger " + i);
 			logger.log(Level.SEVERE, "Teste logger " + i);
 		}
